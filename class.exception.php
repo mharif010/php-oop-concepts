@@ -15,7 +15,7 @@ class Student{
 
 try{
     $std = new Student('Sakil', 2);
-
+    //just
 }catch(Exception $error){
     echo $error->getCode() .' : '. $error->getMessage();
 }
